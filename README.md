@@ -1,25 +1,46 @@
-````
-   (  )   /\   _                 (     
-    \ |  (  \ ( \.(               )                      _____
-  \  \ \  `  `   ) \             (  ___                 / _   \
- (_`    \+   . x  ( .\            \/   \____-----------/ (o)   \_
-- .-               \+  ;          (  O                           \____
-                 cool!    )        \_____________  `              \  /
-(__ Hack      is      - .( -'.- <. - _  VVVVVVV VV V\              \/
-(_____   Club    ._._: <_ - <- _  (--  _AAAAAAA__A_/                |
-  .    /./.+-  . .- /  +--  - .     \______________//_              \_______
-  (__ ' /x  / x _/ (                                  \___'          \     /
- , x / ( '  . / .  /                                      |           \   /
-    /  /  _/ /    +                                      /              \/
-   '  (__/                                             /                  \
+``````
 
-says the friendly dragon. you listen and you agree with her.
+||||||||    Welcome to the DeepAI careers terminal!!   ||||||||
 
-you feel compelled to type the following in your terminal to learn more
-about the open positions at hack club.
-    
-$ ssh jobs.hackclub.com
-````
+  __      __    ____                    _    ___
+ | _|    |_ |  |  _ \  ___  ___ _ __   / \  |_ _|
+ | |      | |  | | | |/ _ \/ _ \ '_ \ / _ \  | |
+ | |      | |  | |_| |  __/  __/ |_) / ___ \ | |
+ | |      | |  |____/ \___|\___| .__/_/   \_\___|
+ |__|    |__|                  |_|
 
-![Demo of SSHing into jobs.hackclub.com](https://cloud-4hoxiuf8u.vercel.app/0jobs.hackclub.com.gif)
 
+Step 1.
+
+Look over your left shoulder.
+
+Step 2.
+
+Look over your right shoulder
+
+step 3.
+
+Look straight up. What do you see?
+
+Step 4.
+
+Stop being ridiculous and looking around aimlessly. Go type the following command in to your computer's terminal already!!
+
+
+$ ssh careers.deepai.org
+
+
+
+            \`----.__                 ____
+            |       `--._         <=#  , *--,
+            /_             `-.    ,/  / `````
+            \__             (_.'  ,'
+                  \__ ......'       \___----^__
+            _./               ,'           `.
+|\     _.'   ___/ )\...._"   ___           \
+| \__.'  __.'            `""'   `""`.'"""`--\
+ \____.-'
+
+
+
+``````
