@@ -478,10 +478,10 @@ list.
 
 								var exitMsg string
 
-								if darkOrLight == "" || darkOrLight == "dark" {
-									exitMsg += " ~ psst. you can switch to light mode with `cat [file] light` ~"
-								} else {
+								if darkOrLight == "" || darkOrLight == "light" {
 									exitMsg += " ~ psst. you can switch to dark mode with `cat [file] dark` ~"
+								} else {
+									exitMsg += " ~ psst. you can switch to light mode with `cat [file] light` ~"
 								}
 
 								exitMsg += "\r\n\n easier to read this file online? " + gists.FileURL(argFile) + " ~(˘▾˘~)"
@@ -549,7 +549,7 @@ list.
 							},
 							"exit": func(args []string) {
 								goodbye := []string{
-									"CAREERS TERMINAL OUT. SEE YOU LATER!\r\n",
+									"CONTACT US AT careers@deepai.org....CAREERS TERMINAL OUT. SEE YOU LATER!\r\n",
 									"\n(~˘▾˘)~\n\n",
 								}
 
