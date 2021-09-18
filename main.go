@@ -193,7 +193,7 @@ func (g GistService) FileRendered(fileName string, darkOrLight string) (string, 
 	}
 
 	if darkOrLight == "" {
-		darkOrLight = "dark"
+		darkOrLight = "light"
 	}
 
 	// if possible, just return the prerendered stuff we have
