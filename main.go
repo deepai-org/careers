@@ -360,11 +360,11 @@ func main() {
 					connected := []string{
 						"\r..........................................................\n\r",
 						"\n\r",
-						"    (ﾉ◕ヮ◕)ﾉ*:･ﾟ✧ ~*~ CONNECTED! ~*~ ✧ﾟ･: *ヽ(◕ヮ◕ヽ)\n\r",
+						"    ༼ つ ◕_◕ ༽つ   ✧ ~*~ CONNECTED! ~*~ ✧  ⊂(◉‿◉)つ  \n\r",
 						"\n\r",
 						"..........................................................\n\r",
 						"\n\r",
-						"WELCOME TO THE HACK CLUB JOBS TERMINAL. PLEASE TYPE help TO BEGIN.\n\r",
+						"WELCOME TO THE DEEPAI CAREERS TERMINAL.TRY TYPING help TO BEGIN.\n\r",
 						"\n\r",
 					}
 
@@ -413,7 +413,7 @@ func main() {
 					for {
 						cmds := map[string]func([]string){
 							"help": func(args []string) {
-								fmt.Fprintln(term, `HACK CLUB JOBS TERMINAL, version 1.0.0-release (x86_64).
+								fmt.Fprintln(term, `DEEPAI CAREERS TERMINAL, version 1.0.0-release (x86_64).
 
 These shell commands are defined internally. Type `+"`help`"+` to see this
 list.
@@ -438,7 +438,7 @@ list.
 							"ls": func(args []string) {
 								files := gists.FileNames()
 
-								fmt.Fprintln(term, "you dust off the shelves and find the following files laying about...\n\r")
+								fmt.Fprintln(term, "You wander around and realized it's bare and empy here. You think to yourself, 'maybe this is just minimalism at its finest'. Suddenly, you stumble across the following files...\n\r")
 
 								fmt.Fprintln(term, strings.Join(files, "\t"))
 							},
@@ -543,16 +543,14 @@ list.
 								typewrite(term, 75*time.Millisecond, "you look up, you look down, you look all around. you are completely and utterly lost.\n\r")
 							},
 							"cd": func(args []string) {
-								typewrite(term, 75*time.Millisecond, "what even IS a directory? this is the HACK CLUB JOBS TERMINAL. there are only jobs here.\r\n")
+								typewrite(term, 75*time.Millisecond, "There are no directories here. Only career opportunities. .\r\n")
 							},
 							"whoami": func(args []string) {
-								typewrite(term, 75*time.Millisecond, "who ARE you? why are we here? what IS this all about?\r\n")
+								typewrite(term, 75*time.Millisecond, "You encounter a moment of existential crisis. Who ARE you? Why are we here? What IS this all about!?\r\n")
 							},
 							"exit": func(args []string) {
 								goodbye := []string{
-									"JOBS TERMINAL OUT. SEE YOU LATER!\r\n",
-									"\nCODE AT https://github.com/hackclub/jobs\r\n",
-									"\nWANT TO TRY SOMETHING FUN? RUN $ ssh sshtron.zachlatta.com\r\n",
+									"CAREERS TERMINAL OUT. SEE YOU LATER!\r\n",
 									"\n(~˘▾˘)~\n\n",
 								}
 
@@ -583,7 +581,7 @@ list.
 							fmt.Fprintln(term, "")
 							fmt.Fprintln(term, inputCmd, `is not a known command.
 
-p.s. this is a custom SSH server, with a custom shell, written in Go. open source at https://github.com/hackclub/jobs!`)
+p.s. this is a custom SSH server, with a custom shell, written in Go, borrowed from the fine creators at HackClub. They've generously open sourced it at at https://github.com/hackclub/jobs!`)
 							fmt.Fprintln(term, "")
 						}
 					}
