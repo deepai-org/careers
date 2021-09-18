@@ -263,11 +263,10 @@ func main() {
 	}
 
 	files := [][]string{
-		[]string{"README.md", "https://gist.github.com/zachlatta/3a5d780da6a3c964677a4f1c4c751f5c"},
-                []string{"hired_clubs_lead.md", "https://gist.github.com/zachlatta/ef83904bfcfddc04bc823355e5bcd280"},
-                []string{"hired_bank_ops_associate.md", "https://github.com/hackclub/v3/blob/main/components/jobs/bank-ops-associate/jd.mdx"},
-                []string{"hired_bank_ops_lead.md", "https://github.com/hackclub/v3/blob/main/components/jobs/bank-ops-lead/jd.mdx"},
-		[]string{"hired_game_designer.md", "https://gist.github.com/zachlatta/a00579cabbd94c98561377eaf369e9a6"},
+		[]string{"README.md", "https://gist.github.com/deepai-org/61f2c9b23eae0cae0e88df28b9f9e8bd"},
+                []string{"software_engineer_frontend.md", "https://gist.github.com/zachlatta/ef83904bfcfddc04bc823355e5bcd280"},
+                []string{"software_engineer_backend.md", "https://github.com/hackclub/v3/blob/main/components/jobs/bank-ops-associate/jd.mdx"},
+                []string{"sales_engineer.md", "https://github.com/hackclub/v3/blob/main/components/jobs/bank-ops-lead/jd.mdx"},
 	}
 
 	gists := NewGistService(files)
@@ -581,7 +580,7 @@ list.
 							fmt.Fprintln(term, "")
 							fmt.Fprintln(term, inputCmd, `is not a known command.
 
-p.s. this is a custom SSH server, with a custom shell, written in Go, borrowed from the fine creators at HackClub. They've generously open sourced it at at https://github.com/hackclub/jobs!`)
+p.s. this is a custom SSH server, with a custom shell, written in Go, and borrowed from the fine creators at HackClub. They've generously open sourced it at at https://github.com/hackclub/jobs!`)
 							fmt.Fprintln(term, "")
 						}
 					}
