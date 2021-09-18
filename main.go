@@ -264,9 +264,9 @@ func main() {
 
 	files := [][]string{
 		[]string{"README.md", "https://gist.github.com/deepai-org/61f2c9b23eae0cae0e88df28b9f9e8bd"},
-                []string{"software_engineer_frontend.md", "https://gist.github.com/zachlatta/ef83904bfcfddc04bc823355e5bcd280"},
-                []string{"software_engineer_backend.md", "https://github.com/hackclub/v3/blob/main/components/jobs/bank-ops-associate/jd.mdx"},
-                []string{"sales_engineer.md", "https://github.com/hackclub/v3/blob/main/components/jobs/bank-ops-lead/jd.mdx"},
+                []string{"software_engineer_frontend.md", "https://gist.github.com/deepai-org/244fb51102fd350837e813d87f64ee05"},
+                []string{"software_engineer_backend.md", "https://gist.github.com/deepai-org/bc80bb064fbe1460db8712c1187ee4e0"},
+                // []string{"sales_engineer.md", ""},
 	}
 
 	gists := NewGistService(files)
