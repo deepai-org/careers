@@ -1,4 +1,21 @@
 ``````
+## access server:
+
+ssh root@careers.deepai.org -p 2222
+
+## update ssh server with latest remote code:
+
+cd /root/work/jobs
+
+git pull
+
+go build main.go
+
+service goweb restart
+
+##check ssh server status:
+
+sudo service goweb status
 
 ||||||||    Welcome to the DeepAI careers terminal!!   ||||||||
 
