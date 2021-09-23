@@ -437,7 +437,7 @@ list.
 							"ls": func(args []string) {
 								files := gists.FileNames()
 
-								fmt.Fprintln(term, "You wander around and realized it's bare and empy here. You think to yourself, 'maybe this is just minimalism at its finest'. Suddenly, you stumble across the following files...\n\r")
+								fmt.Fprintln(term, "You wander around feeling you've found yourself in a bare, desolate place. You think to yourself, 'Am I lost, or is this just minimalism at its finest'. Suddenly, you stumble across the following files...\n\r")
 
 								fmt.Fprintln(term, strings.Join(files, "\t"))
 							},
