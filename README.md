@@ -41,10 +41,14 @@ Look straight up. What do you see?
 
 Step 4.
 
-Stop being ridiculous and looking around aimlessly. Go type the following command in to your computer's terminal already!!
+Stop being ridiculous and looking around aimlessly. Go ahead and check out our job openings!
 
 
-$ ssh careers.deepai.org
+[Software Engineer - Frontend (San Francisco, CA)](https://gist.github.com/deepai-org/244fb51102fd350837e813d87f64ee05)
+
+[Software Engineer - Backend (San Francisco, CA)](https://gist.github.com/deepai-org/bc80bb064fbe1460db8712c1187ee4e0)
+
+
 
 
 
